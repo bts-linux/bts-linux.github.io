@@ -8,26 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://bts-linux.github.io/">
+        <link rel="canonical" href="https://bts-linux.github.io/shell/bash-vs-zsh/">
       
       
+        <link rel="prev" href="../basics/">
       
-        <link rel="next" href="blog/">
+      
+        <link rel="next" href="../oh-my-zsh/">
       
       
-      <link rel="icon" href="assets/logo/Linux.png">
+      <link rel="icon" href="../../assets/logo/Linux.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
     
     
       
-        <title>Linux</title>
+        <title>Bash vs Zsh - Linux</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,7 +48,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -72,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#home" class="md-skip">
+        <a href="#bash-vs-zsh" class="md-skip">
           Skip to content
         </a>
       
@@ -88,9 +90,9 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Linux" class="md-header__button md-logo" aria-label="Linux" data-md-component="logo">
+    <a href="../.." title="Linux" class="md-header__button md-logo" aria-label="Linux" data-md-component="logo">
       
-  <img src="assets/logo/Linux.png" alt="logo">
+  <img src="../../assets/logo/Linux.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -107,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Bash vs Zsh
             
           </span>
         </div>
@@ -208,11 +210,9 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
         
   
   
@@ -233,7 +233,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="blog/" class="md-tabs__link">
+        <a href="../../blog/" class="md-tabs__link">
           
   
   
@@ -249,11 +249,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="shell/basics/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../basics/" class="md-tabs__link">
           
   
   
@@ -293,9 +295,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Linux" class="md-nav__button md-logo" aria-label="Linux" data-md-component="logo">
+    <a href="../.." title="Linux" class="md-nav__button md-logo" aria-label="Linux" data-md-component="logo">
       
-  <img src="assets/logo/Linux.png" alt="logo">
+  <img src="../../assets/logo/Linux.png" alt="logo">
 
     </a>
     Linux
@@ -307,19 +309,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -330,7 +323,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -385,7 +377,7 @@
   
   
     <li class="md-nav__item">
-      <a href="blog/" class="md-nav__link">
+      <a href="../../blog/" class="md-nav__link">
         
   
   
@@ -451,7 +443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="blog/archive/2025/" class="md-nav__link">
+      <a href="../../blog/archive/2025/" class="md-nav__link">
         
   
   
@@ -486,24 +478,29 @@
       
   
   
+    
   
   
+  
     
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   
@@ -516,7 +513,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Shell
@@ -530,7 +527,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell/basics/" class="md-nav__link">
+      <a href="../basics/" class="md-nav__link">
         
   
   
@@ -550,10 +547,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="shell/bash-vs-zsh/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Bash vs Zsh
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -564,6 +583,98 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-bash" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔍 What Is Bash?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-zsh" class="md-nav__link">
+    <span class="md-ellipsis">
+      💡 What Is Zsh?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comparison-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚖️ Comparison Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-plugins-with-zsh" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔌 Using Plugins with Zsh
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#customizing-the-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎨 Customizing the Prompt
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bash-and-zsh-syntax-differences" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 Bash and Zsh Syntax Differences
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#which-one-should-you-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 Which One Should You Use?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -576,7 +687,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell/oh-my-zsh/" class="md-nav__link">
+      <a href="../oh-my-zsh/" class="md-nav__link">
         
   
   
@@ -599,7 +710,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell/scripting/" class="md-nav__link">
+      <a href="../scripting/" class="md-nav__link">
         
   
   
@@ -622,7 +733,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell/cron-jobs/" class="md-nav__link">
+      <a href="../cron-jobs/" class="md-nav__link">
         
   
   
@@ -645,7 +756,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell/advanced-scripting/" class="md-nav__link">
+      <a href="../advanced-scripting/" class="md-nav__link">
         
   
   
@@ -688,6 +799,86 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-bash" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔍 What Is Bash?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-zsh" class="md-nav__link">
+    <span class="md-ellipsis">
+      💡 What Is Zsh?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comparison-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚖️ Comparison Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-plugins-with-zsh" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔌 Using Plugins with Zsh
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#customizing-the-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎨 Customizing the Prompt
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bash-and-zsh-syntax-differences" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 Bash and Zsh Syntax Differences
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#which-one-should-you-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 Which One Should You Use?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -702,7 +893,146 @@
 
 
 
-<h1 id="home">Home</h1>
+<h1 id="bash-vs-zsh">Bash vs Zsh</h1>
+<p>The Linux shell environment can be powered by different shell programs. Two of the most popular are:</p>
+<ul>
+<li><strong>Bash</strong> – The default shell on most Linux systems.</li>
+<li><strong>Zsh</strong> – A powerful alternative with many user-friendly features.</li>
+</ul>
+<p>Let’s compare them and help you decide which one to use.</p>
+<hr />
+<h2 id="what-is-bash">🔍 What Is Bash?</h2>
+<p><strong>Bash</strong> (Bourne Again SHell) is the most commonly used shell on Linux. It is:</p>
+<ul>
+<li>Default on Ubuntu, Debian, and most other distros.</li>
+<li>Scriptable and well-documented.</li>
+<li>POSIX-compliant (great for writing portable scripts).</li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Hello from Bash&quot;</span>
+</span></code></pre></div>
+<hr />
+<h2 id="what-is-zsh">💡 What Is Zsh?</h2>
+<p>Zsh (Z Shell) is a shell with many modern features built in, such as:</p>
+<ul>
+<li>Smart autocompletion</li>
+<li>Syntax highlighting</li>
+<li>Plugins and themes</li>
+<li>Better user experience for interactive use</li>
+</ul>
+<p>It is popular among developers and is the default on macOS since Catalina.</p>
+<hr />
+<h2 id="comparison-table">⚖️ Comparison Table</h2>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Bash</th>
+<th>Zsh</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Default Shell?</td>
+<td>Most Linux distros</td>
+<td>macOS (since Catalina)</td>
+</tr>
+<tr>
+<td>Plugins &amp; Themes</td>
+<td>Manual setup</td>
+<td>Easy with Oh My Zsh</td>
+</tr>
+<tr>
+<td>Autocompletion</td>
+<td>Basic</td>
+<td>Advanced &amp; customizable</td>
+</tr>
+<tr>
+<td>Syntax Highlighting</td>
+<td>No</td>
+<td>Yes (with plugin)</td>
+</tr>
+<tr>
+<td>Prompt Customization</td>
+<td>Manual</td>
+<td>Easy (Powerlevel10k, etc.)</td>
+</tr>
+<tr>
+<td>Learning Curve</td>
+<td>Beginner-friendly</td>
+<td>Beginner-friendly</td>
+</tr>
+<tr>
+<td>Scripting</td>
+<td>Excellent</td>
+<td>Excellent, mostly compatible</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="using-plugins-with-zsh">🔌 Using Plugins with Zsh</h2>
+<p>One of the best reasons to use Zsh is its support for plugins through <strong>Oh My Zsh</strong>:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>sh<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span class="k">)</span><span class="s2">&quot;</span>
+</span></code></pre></div>
+<p>Then you can enable plugins like:</p>
+<ul>
+<li><code>git</code> – Git shortcuts</li>
+<li><code>z</code> – Directory jumping</li>
+<li><code>zsh-autosuggestions</code> – Command suggestions while typing</li>
+<li><code>zsh-syntax-highlighting</code> – Colorized syntax in real-time</li>
+</ul>
+<hr />
+<h2 id="customizing-the-prompt">🎨 Customizing the Prompt</h2>
+<p>Zsh works beautifully with themes like <strong>Powerlevel10k</strong>.</p>
+<p>Install with:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>git<span class="w"> </span>clone<span class="w"> </span>--depth<span class="o">=</span><span class="m">1</span><span class="w"> </span>https://github.com/romkatv/powerlevel10k.git<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">  </span><span class="si">${</span><span class="nv">ZSH_CUSTOM</span><span class="k">:-</span><span class="nv">$HOME</span><span class="p">/.oh-my-zsh/custom</span><span class="si">}</span>/themes/powerlevel10k
+</span></code></pre></div>
+<p>Then update your <code>~/.zshrc</code>:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nv">ZSH_THEME</span><span class="o">=</span><span class="s2">&quot;powerlevel10k/powerlevel10k&quot;</span>
+</span></code></pre></div>
+<hr />
+<h2 id="bash-and-zsh-syntax-differences">🧪 Bash and Zsh Syntax Differences</h2>
+<p>Most of the time, the syntax is the same. But here are a few subtle differences:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="c1"># Bash array</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="nv">my_array</span><span class="o">=(</span>a<span class="w"> </span>b<span class="w"> </span>c<span class="o">)</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="nb">echo</span><span class="w"> </span><span class="si">${</span><span class="nv">my_array</span><span class="p">[0]</span><span class="si">}</span><span class="w">   </span><span class="c1"># a</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="c1"># Zsh array</span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="nv">my_array</span><span class="o">=(</span>a<span class="w"> </span>b<span class="w"> </span>c<span class="o">)</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="nb">echo</span><span class="w"> </span><span class="si">${</span><span class="nv">my_array</span><span class="p">[1]</span><span class="si">}</span><span class="w">   </span><span class="c1"># a (index starts at 1!)</span>
+</span></code></pre></div>
+<hr />
+<h2 id="which-one-should-you-use">🧠 Which One Should You Use?</h2>
+<table>
+<thead>
+<tr>
+<th>If you want...</th>
+<th>Use...</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stability and universal compatibility</td>
+<td><strong>Bash</strong></td>
+</tr>
+<tr>
+<td>A modern, powerful CLI experience</td>
+<td><strong>Zsh</strong></td>
+</tr>
+<tr>
+<td>Writing shell scripts</td>
+<td><strong>Bash</strong> (more portable)</td>
+</tr>
+<tr>
+<td>Interactive, productive CLI use</td>
+<td><strong>Zsh</strong> (with plugins)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="conclusion">✅ Conclusion</h2>
+<p>Both shells are excellent. If you're just starting out, Bash is a great foundation. But if you're ready to level up your productivity, try Zsh with Oh My Zsh and see the difference.</p>
 
 
 
@@ -737,15 +1067,31 @@
       
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
+          
+          <a href="../basics/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Basics">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Basics
+              </div>
+            </div>
+          </a>
+        
         
           
-          <a href="blog/" class="md-footer__link md-footer__link--next" aria-label="Next: Index">
+          <a href="../oh-my-zsh/" class="md-footer__link md-footer__link--next" aria-label="Next: Oh My Zsh">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Index
+                Oh My Zsh
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -781,10 +1127,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.top", "navigation.tabs.sticky", "header.autohide", "navigation.footer", "content.code.copy", "content.code.select"], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.tabs.sticky", "header.autohide", "navigation.footer", "content.code.copy", "content.code.select"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.50899def.min.js"></script>
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
       
     
   </body>
